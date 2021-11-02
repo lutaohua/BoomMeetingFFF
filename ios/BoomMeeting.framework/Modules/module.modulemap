@@ -1,0 +1,6 @@
+framework module BoomMeeting {
+  umbrella header "BoomMeeting.h"
+
+  export *
+  module * { export * }
+}
