@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage = "https://git.baijiashilian.com/LLL/frondend/boommeeting"
   s.description = "BoomMeeting to create a meeting"
   s.frameworks = ["UIKit", "Foundation", "CoreFoundation", "UserNotifications", "CoreGraphics"]
-  s.libraries = ["c", "sqlite3", "stdc++", "resolv", "sqlite3.0", "xml2", "bz", "bz.1.2.5"]
+  s.libraries = ["c", "sqlite3", "stdc++", "resolv", "sqlite3.0", "xml2", "ibz", "ibz.1.2.5"]
   s.xcconfig = {"CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES"=>"YES", "ENABLE_BITCODE"=>"NO", "GCC_PREPROCESSOR_DEFINITIONS"=>"$(inherited) PODSPEC_NAME=\#{s.name} PODSPEC_VERSION=\#{s.version}", "OTHER_LDFLAGS"=>"-framework BoomCore"}
   s.source = { :git => "https://github.com/lutaohua/BoomMeeting.git", :tag => s.version }
   
